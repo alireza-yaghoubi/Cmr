@@ -22,7 +22,7 @@ function AddCustomerPage() {
     });
     const data = await res.json();
     console.log(data);
-    if (data.status === "success") router.push("/");
+    if (data.status === "Success") router.push("/");
   };
   const cancelHandler = () => {
     setForm({
